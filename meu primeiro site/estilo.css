@@ -52,3 +52,20 @@ h2{
     .rodape{
     padding: 3%;
     }
+    .titulo{
+        line-height: 3;
+    }
+    h1{
+        font-size: 2.5em;
+        }
+        h2{
+        font-size: 1.5em;
+        }
+        h3{
+            font-size: 1.5em;
+            }
+            h4{
+                font-size: 1.5em;
+                }
+                
+                
