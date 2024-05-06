@@ -85,6 +85,24 @@ ul li{
 font-size: 1.2em;
 }
 
+table{
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    }
+    td, th{
+    border: 5px dashed #f00;
+    padding: 1.5%;
+    }
+    body {
+        background-color: rgb(191,191,191);
+        font-family: "Playpen Sans", cursive;
+        }
+
+    
 
                 
                     
