@@ -62,6 +62,8 @@ h2{
         font-size: 1.5em;
         text-align: center;
         font-weight: bold;
+       
+        
       }
         
     h3{
@@ -78,12 +80,13 @@ h2{
 p{
 line-height: 1.5;
 font-size: 1.2em;
-}
+
+
             
 ul li{
- line-height: 1.5;
-font-size: 1.2em;
-}
+    line-height: 1.5;
+   font-size: 1.2em;
+   }
 
 table{
     border-collapse: collapse;
