@@ -4,163 +4,122 @@ body{
    background-size: contain; 
    
 
+   
+    
 }
 header{
     
     padding: 3%;
-}
-
-#menu ul{
-    padding: 0px;
-    margin: 0px;
-    background-color: #ededed;
-    list-style: none;
-}
-
-#menu ul li {display: inline;}
-
-.logo img        {
-    width: 40%;
-  height: auto;
-}
-
-#menu ul li a{
-    padding: 2px 10px;
-    display: inline-block;
-    text-decoration: none;
-    border-bottom: 3px solid   #ededed;
-}
-
-nav{
-    background-color: rgb(255, 255, 0);
-}
-
-main{
-    /*background-color: green;*/
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-
-footer {
-   /* background-color: rgb(112, 48, 160 );*/
-    padding: 3%;
-} 
-
-.cabecalho{
-    padding: 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}  
-
-
-
-
-p{
-    line-height: 1.7;
-    color: #fff;
-    text-align: justify;
-    
 }
-.titulos{
 
-    font-size: xx-large;
+.cabecalho{
+    padding: 3%;
+}
+
+.rodape{
+    padding: 3%;
+}
+
+
+
+.titulos{
+    line-height: 3;
     text-align: center;
-    font-weight:bold;
-    margin-top: 2%;
+    font-weight: bold;
 }
 
 h1{
-    font-size: 2.5em;
-    text-align: center;
-    font-weight: bold;
-    color: #ededed;
-    display: block;
-    margin-top: 2em;
-    margin-bottom: 1em;
-  }
-h2{
-    font-size: 2.5em;
-    text-align: center;
-    font-weight: bold;
-    color: #ededed;
-    display: block;
-    margin-top: 2em;
-    margin-bottom: 1em;
+    font-size: 2em;
 }
-h3{
-    font-size: 2.5em;
-    text-align: center;
-    font-weight: bold;
-    color: #ededed;
-    display: block;
-    margin-top: 2em;
-    margin-bottom: 1em;
+h2,h3,h4,h5{
+    font-size: 1.5em;
+}
 
-}
-h4{
-    font-size: 2.5em;
-    text-align: center;
-    font-weight: bold;
-    color: #ededed;
-    display: block;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    }      
-h5{
-    font-size: 2.5em;
-    text-align: center;
-    font-weight: bold;
-    color: #ededed;
-    display: block;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    }   
-    
 p{
-line-height: 1.0;
-font-size: 1.2em;
-color: aliceblue;
-
+    line-height: 1.5;
+    font-size: 1.2em;
+    text-align: justify;
 }
 
-figure{
-text-align: center;
-display: inline-block;
 
+#menu ul { 
+    padding:1px;
+    margin:1px;
+    list-style:none;
+    display: flex;
 }
 
-.caixa-imagem{
+#menu ul li { 
+    display: inline; 
+    font-size: 1.2em;
+}
+
+
+
+#menu ul li a {     
+    padding: 2px 10px; 
+    display: inline-block;    
+    text-decoration: none; 
+    white-space: nowrap;
+    color: #fff;
+}
+
+
+nav{    
+    width: 80%;    
+}
+
+
+main{
+
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+    
+}
+footer{ 
+
+    padding: 3%;
+}
+
+.logo img {
+    
+    max-width: 30%; 
+    height: auto;
+}
+
+.logo{
+
+}
+h1,h2,h3,h4,h5,p,li,figcaption{
+    color: #fff;
+}
+
+.caixa-imagem {
     text-align: center;
-    margin-top: 1%;
-    
+    margin-top: 1%;    
 }
 
-body {
-    background-color: rgb(191,191,191);
-    font-family: "Playpen Sans", cursive;
-    }
-    
-    div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 300px;
-      }
-      
-      img {
-        width: 99%;
-        height: 300px;
-      }
-    
+figure {
+    text-align: center;
+    display: inline-block;    
+}
 
+figure img {
+    display: block;
+    margin: 0 auto;    
+    box-shadow: 0px 4px 8px white; 
+    max-width: 100%; 
+    height: auto;
+}
 
-
-
-
-
-
+figure figcaption{
+    margin: 0.7em;    
+    text-align: center;
+    color: gold;
+}
